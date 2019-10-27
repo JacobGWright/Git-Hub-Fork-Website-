@@ -149,10 +149,15 @@ html {
 
 
 /* SECTION DEPARTMENT */
-.computer,.electrical,.mechanical{
-    height: 300px;
-    background-image: url('../img/computer.jpg'),
-    linear-gradient(rgba(0, 0, 0, 0.61),rgba(0, 0, 0, 0.649));
+
+
+
+
+
+
+
+.computer,.electrical,.mechanical,.public,.data,.rhetoric,.media,.critical,.business,.global,.composition,.edit{
+    height: 450px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -160,21 +165,65 @@ html {
     transition: all 4s ease-in-out;
     position: relative;
 }
+.computer{
+    background-image: url('../img/computer.jpg'),
+    linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3));
+}
 .electrical{
     background-image: url('../img/electrical.jpg'),
-    linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.649));
+    linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3));
 }
 .mechanical{
     background-image: url('../img/mechanical.jpg'),
-    linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.649));
-
+    linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3));
 }
+.public{
+    background-image: url('../img/public.jpg'),
+    linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3));
+}
+.data{
+    background-image: url('../img/data.jpg'),
+    linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3));
+}
+.rhetoric{
+    background-image: url('../img/rhetoric.jpg'),
+    linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3));
+}.media{
+    background-image: url('../img/media.jpg'),
+    linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3));
+}.critical{
+    background-image: url('../img/critical.jpg'),
+    linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3));
+}.business{
+    background-image: url('../img/business.jpg'),
+    linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3));
+}.global{
+    background-image: url('../img/global.jpg'),
+    linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3));
+}.composition{
+    background-image: url('../img/composition.jpg'),
+    linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1));
+}.edit{
+    background-image: url('../img/edit.jpg'),
+    linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1));
+}
+
+
+
+
+
+
+
 .department-h2 {
     position: absolute;
     top:50%;
     left:50%;
     transform: translate(-50%,-50%);
 }
+
+
+
+
 .computer:hover{
     background-image: url('../img/computer.jpg'),
     linear-gradient(rgba(0, 0, 0, 0.788),rgba(0, 0, 0, 0.918));
@@ -185,14 +234,62 @@ html {
 }
 .mechanical:hover{
     background-image: url('../img/mechanical.jpg'),
-    linear-gradient(rgba(0, 0, 0, 0.788),rgba(0, 0, 0, 0.918));}
-.computer:hover .computerText, .electrical:hover .computerText, .mechanical:hover .computerText{
+    linear-gradient(rgba(0, 0, 0, 0.788),rgba(0, 0, 0, 0.918));
+}
+.public:hover{
+    background-image: url('../img/public.jpg'),
+    linear-gradient(rgba(0, 0, 0, 0.788),rgba(0, 0, 0, 0.918));
+}
+.data:hover{
+    background-image: url('../img/data.jpg'),
+    linear-gradient(rgba(0, 0, 0, 0.788),rgba(0, 0, 0, 0.918));
+}
+.rhetoric:hover{
+    background-image: url('../img/rhetoric.jpg'),
+    linear-gradient(rgba(0, 0, 0, 0.788),rgba(0, 0, 0, 0.918));
+}
+.media:hover{
+    background-image: url('../img/media.jpg'),
+    linear-gradient(rgba(0, 0, 0, 0.788),rgba(0, 0, 0, 0.918));
+}
+.critical:hover{
+    background-image: url('../img/critical.jpg'),
+    linear-gradient(rgba(0, 0, 0, 0.788),rgba(0, 0, 0, 0.918));
+}
+.business:hover{
+    background-image: url('../img/business.jpg'),
+    linear-gradient(rgba(0, 0, 0, 0.788),rgba(0, 0, 0, 0.918));
+}
+.global:hover{
+    background-image: url('../img/global.jpg'),
+    linear-gradient(rgba(0, 0, 0, 0.788),rgba(0, 0, 0, 0.918));
+}
+.composition:hover{
+    background-image: url('../img/composition.jpg'),
+    linear-gradient(rgba(0, 0, 0, 0.788),rgba(0, 0, 0, 0.918));
+}
+.edit:hover{
+    background-image: url('../img/edit.jpg'),
+    linear-gradient(rgba(0, 0, 0, 0.788),rgba(0, 0, 0, 0.918));
+}
+
+
+
+
+
+
+
+.computer:hover .computerText, .electrical:hover .computerText, .mechanical:hover .computerText, .public:hover .computerText, .data:hover .computerText, .rhetoric:hover .computerText, .media:hover .computerText, .critical:hover .computerText, .business:hover .computerText, .global:hover .computerText, .composition:hover .computerText, .edit:hover .computerText{
     display: block;
 }
-.computer:hover .department-h2,.electrical:hover .department-h2, .mechanical:hover .department-h2{
+.computer:hover .department-h2, .electrical:hover .department-h2, .mechanical:hover .department-h2, .public:hover .department-h2, .data:hover .department-h2, .rhetoric:hover .department-h2, .media:hover .department-h2, .critical:hover .department-h2, .business:hover .department-h2, .global:hover .department-h2, .composition:hover .department-h2, .edit:hover .department-h2{
     top:10%;
     left:50%;
 }
+
+
+
+
 .computerText{
     transition: all 4s ease-in-out;
     padding-top:10%;
@@ -231,6 +328,10 @@ html {
         display: block;
         padding-top:20%;
     }
+    
+    
+    
+    
     .computer{
         background-image: url('../img/computer.jpg'),
         linear-gradient(rgba(0, 0, 0, 0.699),rgba(0, 0, 0, 0.818));
@@ -241,10 +342,59 @@ html {
     }
     .mechanical{
         background-image: url('../img/mechanical.jpg'),
-        linear-gradient(rgba(0, 0, 0, 0.699),rgba(0, 0, 0, 0.818));}
+        linear-gradient(rgba(0, 0, 0, 0.699),rgba(0, 0, 0, 0.818));
+    }
+    .public{
+        background-image: url('../img/public.jpg'),
+        linear-gradient(rgba(0, 0, 0, 0.699),rgba(0, 0, 0, 0.818));
+    }
+    .data{
+        background-image: url('../img/data.jpg'),
+        linear-gradient(rgba(0, 0, 0, 0.699),rgba(0, 0, 0, 0.818));
+    }
+        .rhetoric{
+        background-image: url('../img/rhetoric.jpg'),
+        linear-gradient(rgba(0, 0, 0, 0.699),rgba(0, 0, 0, 0.818));
+    }    .media{
+        background-image: url('../img/media.jpg'),
+        linear-gradient(rgba(0, 0, 0, 0.699),rgba(0, 0, 0, 0.818));
+    }    .critical{
+        background-image: url('../img/critical.jpg'),
+        linear-gradient(rgba(0, 0, 0, 0.699),rgba(0, 0, 0, 0.818));
+    }    .business{
+        background-image: url('../img/business.jpg'),
+        linear-gradient(rgba(0, 0, 0, 0.699),rgba(0, 0, 0, 0.818));
+    }    .global{
+        background-image: url('../img/global.jpg'),
+        linear-gradient(rgba(0, 0, 0, 0.699),rgba(0, 0, 0, 0.818));
+    }    .composition{
+        background-image: url('../img/composition.jpg'),
+        linear-gradient(rgba(0, 0, 0, 0.699),rgba(0, 0, 0, 0.818));
+    }    .edit{
+        background-image: url('../img/edit.jpg'),
+        linear-gradient(rgba(0, 0, 0, 0.699),rgba(0, 0, 0, 0.818));
+    }
+    
+    
+    
+    
+    
+    
+    
+    
     .header-text,.nav-link{
         font-size: 20px;
     }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     .college-head h1{
         font-weight: bold;
         font-size: 20px;
