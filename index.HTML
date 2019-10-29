@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,6 +10,12 @@
     <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href = "styles/home.css" type="text/css">
+    
+    
+    <!-- Main style sheet -->
+		<link rel="stylesheet" type="text/css" href="Calendar/css/style.css">
+		<!-- responsive style sheet -->
+		<link rel="stylesheet" type="text/css" href="Calendar/css/responsive.css">	
     
 </head>
 <body>
@@ -93,54 +98,116 @@
     <section class="about container-fluid">
         <div class="row justify-content-start">
             <div class="col-md-8 justify-content-start">
-               <h2 class="text-left mt-4 ml-3 pt-3">What is <span class="orangeTitle">Technical Writing?</span></h2>
-                <p class="p-3">
-                    Technical Writing is any writing that occurs in a professional setting. It is both an art and a science, relevant to any field, that develops the best methods of delivering information. It is important, especially in today's environment of mass communication, that workplace writing is done to a high standard that implements the following characteristics:
-                <ul>
-                    <li>Accuracy</li>
-                    <li>Clarity</li>
-                    <li>Conciseness</li>
-                    <li>Readability/Usability</li>
-                    <li>Correctness</li>
-                </ul>
-                </p>
-                <p class="p-3">
-                    Successful technical writing will result in an informative document that guides any reader to the correct conclusions. The document must be designed and written in a way that captivates its audience, otherwise the reader may disregard most, if not all, of the contained information.
-                </p>
-                <p class="p-3">
-                    It is clear to see that technical writing includes not only writing proposals and memorandums, but also extends to a wider range of communication. This includes writing code, and designing infographics.
-                </p>
+                <h2 class="text-left mt-4 ml-3 pt-3">About <span class="orangeTitle">ACE</span></h2>
+                <p class="p-3">Andrew College Of Engineering (ACE) was established in 1999 with a view to create an
+                    Engineering
+                    Degree Institute to fulfill the long felt public need of an Institute of Excellence in Borivali.
+
+                    SFIT has five UG Programs and two PG Programs in the most coveted disciplines considering both
+                    industrial
+                    need and public preference. These courses would lead to award of the Degree of Bachelor of
+                    Engineering
+                    (B.E.) in Computer Engineering, Electronics & Telecommunication Engineering, Information Technology,
+                    Electrical Engineering and Mechanical Engineering and Master of Engineering (M.E.) as well as Ph.D.
+                    (Technology) in Computer Engineering and Electronics & Telecommunication Engineering.
+                    National Board of Accreditation (NBA) has granted accreditation to the three U.G. programs i.e.
+                    Computer Engineering, Electronics & Telecommunication Engineering and Information Technology offered
+                    by our Institute as per the validity period mentioned in their letter. The institute is
+                    also certified for meeting with the Quality Management System Standards ISO 9001:2015, for providing
+                    undergraduate courses in Engineering/Technology.</p>
             </div>
             <div class=" col-md-4 img-col">
                 <img class="aboutSfit img" src="img/collegeabout.jpg" alt="">
             </div>
         </div>
     </section>
+    
+    
+    <section class="cal container-fluid mt-3 mb-5">
+        <hr>
+        <h3 class="calH2 text-left mt-4 ml-3 pt-3 mb-4"><i class="fa fa-calendar pr-1"></i>Our <span class="text-orange">Upcoming</span> Events</h3>
+        <div class="row  container-fluid justify-content-center">
+            <div class="col-sm-4">
+            
+            
+                <div class="sidebar-calendar">
+				    <h6>Calendar</h6>
+				    <div class="monthly" id="blog-calendar"></div>
+				</div>
+            </div>
+        
+            <div class="col-sm-2"></div>
+            <div class="col-sm-6">
+                <div class="sidebar-recent-post">
+								<h6>RECENT EVENTS</h6>
+
+								<div class="recent-single-post clear-fix">
+									<img src="Calendar/images/blog/4.jpg" alt="Image" class="float-left">
+									<div class="post float-left">
+										<a href="http://www.iccm2018.iaasse.org/" class="tran3s">4th International Conference on Computers and Mangement(ICMM) 2018 to be held at GBPEC</a><br>
+										<span> 28 September, 2018</span>
+									</div> <!-- /.post -->
+								</div> <!-- /.recent-single-post -->
+
+								<div class="recent-single-post clear-fix">
+									<img src="Calendar/images/blog/5.jpg" alt="Image" class="float-left">
+									<div class="post float-left">
+										<a href="https://inceptum2018.herokuapp.com/" class="tran3s">Inceptum 2018 (4-5 september 2018)</a><br>
+										<span> 27 September, 2018</span>
+									</div> <!-- /.post -->
+								</div> <!-- /.recent-single-post -->
+
+
+
+								<div class="recent-single-post clear-fix">
+									<img src="Calendar/images/blog/6.jpg" alt="Image" class="float-left">
+									<div class="post float-left">
+										<a href="#" class="tran3s">Workshop(Career guidance and Start to Python)</a><br>
+										<span>27 September, 2018</span>
+									</div> 
+								</div>
+							
+
+
+							     <div class="recent-single-post clear-fix">
+								<img src="Calendar/images/blog/7.jpg" alt="Image" class="float-left">
+								<div class="post float-left">
+									<a href="http://www.gbpec.edu.in/docs/NoticeAndUpdates/acad_cal.docx" class="tran3s">Academic Calender</a><br>
+									<span>27 September, 2018</span>
+								</div> <!-- /.post -->
+							     </div> <!-- /.recent-single-post -->
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
     <section class="why container-fluid p-5 my-3" id="whysection">
-        <div class="container-fluid row ">
+        <div class="container-fluid row">
             <div class="col-sm-5 justify-content-end p-1">
                 <img src="img/whysection.jpg" class=" border border-white whysectionImg my-2" alt="">
             </div>
-            <div class=" container col-md-7 text-white justify-content-start">
+            <div class=" container col-md-7 justify-content-start">
                 <h2 class="text-left whyTitle m-3"><i class="fas fa-eye fa-lg"></i>
-                    Why Choose<span class=" orangeTitlenoBorder ">Tech Comm</span></h2>
+                    <font color="white">WHY </font><span class=" orangeTitlenoBorder ">ACE</span></h2>
                 <div class="row">
                     <div class="col-sm-6 py-3">
                         <i class="fas fa-university fa-2x"></i>
-                        <h4 class="pl-1">NBA Accredited</h4>
+                        <h4 class="pl-1"><font color="white">NBA Accredited</font></h4>
                     </div>
                     <div class="col-sm-6 py-3">
                         <i class="fas fa-home fa-2x"></i>
-                        <h4>State of art Infrastructure</h4>
+                        <h4><font color="white">State of art Infrastructure</font></h4>
                     </div>
                 </div>
                 <div class="row mt-5">
                     <div class="col-sm-6 py-3">
                         <i class="fas fa-users fa-2x"></i>
-                        <h4>High Faculty-Student Ratio</h4>
+                        <h4><font color="white">High Placement Ratio</font></h4>
                     </div>
                     <div class="col-sm-6 py-3"><i class="fas fa-user-tie fa-2x"></i>
-                        <h4>Highly Qualified Faculties</h4>
+                        <h4><font color="white">Highly Qualified Faculties</font></h4>
                     </div>
                 </div>
             </div>
@@ -149,34 +216,21 @@
     </section>
     <section class="our-section pl-3 my-5 container-fluid">
         <h3 class="text-left pl-2 pt-3"><i class="icon ion-md-eye"></i>
-            The <span class="orangeTitle">Impact</span></h3>
-        <p class="p-2">Technical writing and communcation skills will benefit you are interested in any of the following fields:
-            <ul>
-                <li>English</li>
-                <li>Engineering</li>
-                <li>Computer Science</li>
-                <li>Business</li>
-                <li>Law</li>
-                <li>Medicine</li>
-            </ul>
+            Our <span class="orangeTitle">Vision</span></h3>
+        <p class="p-2">To be a chrysalis where bright youngsters are transformed into technological entrepreneurs and
+            innovative leaders of tomorrow’s world, consistent with the Franciscan vision of integrity, peace and love.
         </p>
         <h3 class="text-left mt-4 pl-2 pt-3"><i class="icon ion-md-thumbs-up"></i>
-            Student <span class="orangeTitle">Resources</span></h3>
-        <p class="pl-2 ">
-            <ul>
-                <li>
-                    Pitt Department of English - Public and Professional Writing Major <a href="https://www.composition.pitt.edu/undergraduate/public-and-professional-writing" target="_blank">Website</a>
-                </li>
-                </br>
-                <li> 
-                    <a href="https://www.writethedocs.org/" target="_blank">Write the Docs</a> is a global community of technical writers who collaborate to better the art and science of documentation.
-                </li>
-                </br>
-                <li>
-                    The <a href="https://attw.org/" target="_blank">Association of Teachers of Technical Writing</a> is an organization of acedmics who work to advance the field of technical communication through their journal publication, <i>Technical Communication Quarterly</i>, and through an annual conference. 
-                </li>
-            </ul>
+            Our <span class="orangeTitle">Misson</span></h3>
+        <p class="pl-2 ">For UG programme:- “To churn highly competent engineering graduates with a commitment to result
+            oriented work, a perennial zest for learning, a quest for excellence, an open mind and the universal values
+            of honesty, dignity and mutual care.”
         </p>
+        <p class="pl-2 pt-1">
+            For PG programme:- “To continually improve and progress in the path of developing post graduate scholars who
+            will be competent in exploring, developing and disseminating new knowledge in their areas of specialisation
+            so that the repository of new knowledge and innovation and its dissemination will be enhanced in scope of
+            effectiveness.”</p>
     </section>
 
  
@@ -201,7 +255,7 @@
         <div class="row  container-fluid justify-content-center">
             <div class="col-sm-4">
             <i class="fas fa-quote-left"></i>
-            <p class="text-dark">I have always felt that I was so lucky to be a student at ACE, and not at any other college. The thing I admire the most about ACE is the support I received from everyone at the college. I wouldn't have been able to achieve what I have achieved without that caring environment.I can positively say that ACE has made me a better person.</p>
+            <p class="text-dark">I have always felt that I was so lucky to be a student at ACE, and not at any other college. The thing I admire the most about ACE is the support I received from everyone at the college. I wouldn't have been able to achieve what I have achieved without that caring environment.I can positively say that ACE has made me a better person.</p><br>
             <div class="container w-50 text-center">
             <img src="img/customer-3.jpg" alt="" class=" border border-dark float-sm-left rounded-circle">
             <p class="float-sm-right" style="margin-bottom:0px;">~Madan Panth</p>
@@ -211,7 +265,7 @@
             </div>
             <div class="col-sm-4">
             <i class="fas fa-quote-left"></i>
-            <p class="text-dark">My journey of three years at ACE as a student and faculty has been a memorable experience. The most important values I learnt here are discipline and significance of time. During this period, I made some good friends and met some amazing people. Moreover, teaching staff and non-teaching staff were always helpful.</p>
+            <p class="text-dark">My journey of three years at ACE as a student and faculty has been a memorable experience. The most important values I learnt here are discipline and significance of time. During this period, I made some good friends and met some amazing people. Moreover, teaching staff and non-teaching staff were always helpful.</p><br>
             <div class="container w-50 text-center">
             <img src="img/customer-2.jpg" alt="" class=" border border-dark float-sm-left rounded-circle">
             <p class="float-sm-right" style="margin-bottom:0px;">~Vipula Rawte</p>
@@ -221,7 +275,7 @@
             </div>
             <div class="col-sm-4">
             <i class="fas fa-quote-left"></i>
-            <p class="text-dark">ACE has had a huge influence on my life. The college enabled me to identify my strengths and weaknesses with respect to choosing my career path. Apart from the professors and the infrastructure, the technical and cultural festivals make the students interact with other colleges.</p>
+            <p class="text-dark">ACE has had a huge influence on my life. The college enabled me to identify my strengths and weaknesses with respect to choosing my career path. Apart from the professors and the infrastructure, the technical and cultural festivals make the students interact with other colleges.</p><br>
             <div class="container w-50 text-center">
             <img src="img/customer-1.jpg" alt="" class=" border border-dark float-sm-left rounded-circle">
             <p class="float-sm-right" style="margin-bottom:0px;">~Prachi Savant</p>
@@ -245,5 +299,18 @@
 <?php error_reporting(-1);
 ini_set('display_errors', 'On');
 set_error_handler("var_dump");?>
+         <!-- j Query -->
+		<script type="text/javascript" src="Calendar/vendor/jquery.2.2.3.min.js"></script>
+
+		<!-- Bootstrap JS -->
+		<script type="text/javascript" src="Calendar/vendor/bootstrap/bootstrap.min.js"></script>
+
+		<!-- Calendar js -->
+		<script type="text/javascript" src="Calendar/vendor/monthly-master/js/monthly.js"></script>
+
+
+		<!-- Theme js -->
+		<script type="text/javascript" src="Calendar/js/theme.js"></script>
+		<script type="text/javascript" src="Calendar/js/map-script.js"></script>
     </body>
 </html>
