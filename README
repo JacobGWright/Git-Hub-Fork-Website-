@@ -16,6 +16,19 @@ Assignment Requirement:
     
 Stasis theory from Google Slides:
 
+Uploading and Work Process:
+	For the website design process, our group worked using GitHub. We forked (cloned) another website that was appealing to use as a base and also forked another website to use their calendar. From here, each of our five group members took different tasks and completed them individually. We worked directly together to come up with a vision of what the website would turn out like. In addition, collaborating directly with the client (in this case, the instructor) helped us to create a product that better meets the ideas of what is wanted. 
+Working individually, we downloaded the main HTML file and made edits to it on our own machines. To upload any changes to the code, we did it directly in-browser through GitHub’s file editing system. This prevented the issue of multiple people having the file downloaded at the same time and overwriting each other’s changes. This also meant that we did not have to come up with our own method of checking files in and out. This system worked well and did not introduce any headaches to the project.
+
+Our Suggested Pitt Courses for Technical Writer:
+        Course information comes from the website of English department at the University of Pittsburgh. After a thorough study, we pick some representative courses for technical communication as our suggested courses.
+Initially, images which can reflect the characteristics of corresponding courses come from the websites. These images can visually help users understand these courses.
+In design, the template provides section blocks for each course description. What we do is to edit the texts and images of these blocks. Plus, we add more blocks by copying the codes of original block units since we have too many courses. In addition, the size of the blocks is also adjusted to accommodate the large contents. 
+After we receive some feedback, we change our minds. Since users may have no interest in going through all course descriptions, it is better to reduce the area of the course description section. As a result, we add a collapsing function for all blocks so that users can determine by themselves to read the course descriptions which they are interested in. If they want, they can click on the blocks. On the contrary, they can simply skip this section. Codes of collapsing function are copied from another template, and inserting images is hard since it will significantly change the codes. Thus, we remove images and only keep texts.
+
+Contact:
+Editing is simple in this section. We just replace all information with our own. In addition, we change the background color from dark to blue according to Pitt color theme.
+
 
 
 
